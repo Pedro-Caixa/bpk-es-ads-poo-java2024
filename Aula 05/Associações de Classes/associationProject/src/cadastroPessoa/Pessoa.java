@@ -21,6 +21,10 @@ public class Pessoa {
         this.enderecos.add(enderecoAtual);
     }
 
+    public void removerIndereco(Endereco enderecoAtual){
+        this.enderecos.remove(enderecoAtual);
+    }
+
     public String getNome() {
         return nome;
     }
